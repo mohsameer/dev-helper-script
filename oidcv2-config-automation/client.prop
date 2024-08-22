@@ -1,0 +1,7 @@
+{
+  "secret/oidcv2/APPNAME-clientId": "mipprd-e507-6756-3cd4-34l5c36g8838",
+  "secret/oidcv2/APPNAME-clientSecret": "client_secret",
+  "secret/oidcv2/APPNAME-redirectUris": "[\"https://pro-flow.ppsdmn.co.za/web/run.w?run=login\"]",
+  "secret/oidcv2/APPNAME-postLogoutRedirectUris": "[\"https://pro-flow.ppsdmn.co.za/web/run.w?run=logout\"]",
+  "secret/oidcv2/APPNAME-introspectorConfig": "{\"cauthnpUrl\": \"https://sso.pps.co.za/sso-login/login\", \"errorUrl\": \"https://sso.pps.co.za/sso-login/error\", \"idClaim\": \"userName\", \"claimsMap\": {\"mail\": \"email\", \"mobile\": \"mobile\", \"cn\": \"uID\", \"sn\": \"familyName\", \"givenName\": \"givenName\", \"applications\": \"applications\", \"sparkleData\": \"sparkleData\", \"sparkleLinkedData\": \"sparkleLinkedData\", \"nickname\": \"userName\", \"profitData\": \"profitData\", \"saID\": \"saID\", \"title\": \"title\"}, \"postNewSessionUrl\": \"http://session-mgmt-service.services.svc.cluster.local:8081/api/session/create\", \"postSessionCompleteUrl\": \"http://session-mgmt-service.services.svc.cluster.local:8081/api/session/{session_id}/complete\", \"interceptorLoglevel\": \"DEBUG\", \"taiMethod\": \"query\", \"oidcUrl\": \"https://oidc.pps.co.za\", \"groups\": [\"group3\"]}"
+}

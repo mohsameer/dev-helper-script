@@ -1,0 +1,2 @@
+simple-term-menu==1.6.4
+python-consul==1.1.0

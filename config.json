@@ -1,0 +1,22 @@
+{
+  "OIDC_VERSION": "oidcv2",
+  "OIDC_URL": "https://oidc-pprod.pps.co.za",
+  "EXT_AUTH_URL": "https://sidas-pprod.pps.co.za/api/authn",
+  "USE_CASES": [
+    {
+      "NAME": "Profit-Client",
+      "CLIENT_ID": "1cb32bfd-7f8a-4b63-9d96-38c68fa97815",
+      "CLIENT_SECRET": "Oi32deUAD+cLDswp3Ma02/h4E34uhxD7jTXJoCdJtxgVOMgS8T2brbBPk2hns4OO",
+      "USERNAME": "TechnicalSpecA",
+      "PASSWORD": "R3s3tP@$$w0rd@2021s",
+      "REDIRECT_URL": "https://pro-fit-pre.pps.co.za/pro-fit",
+      "SCOPES": [
+        "openid",
+        "sparkle",
+        "email",
+        "profit"
+      ],
+      "TOKEN_AUTH_TYPE": "client_secret_post"
+    }
+  ]
+}
